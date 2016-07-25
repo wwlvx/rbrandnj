@@ -1,0 +1,382 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Psicologia | Psicólogo Ricardo Brandel Junior</title>
+
+    <!-- Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+    <!-- Styles -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <style>
+        
+    </style>
+</head>
+<body id="app-layout">
+    <div id="main-top" class="main-wrapper">
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <p>Seja Bem Vindo ao nosso site.</p>
+            </div>
+            <div class="top-bar-right">
+                <ul class="top-nav">
+                    <li class="top-nav-item">
+                        <a href="#" class="top-nav-phone">(43) 3017-0227</a>
+                    </li>
+                    <li class="top-nav-item">
+                        <a href="#" class="top-nav-mail">contato@ricardobrandel.com.br</a>
+                    </li>
+                    <li class="top-nav-item">
+                        <ul class="top-nav-social">
+                            <li>Redes Sociais:</li>
+                            <li class="top-nav-social-links">
+                                <a href="https://www.facebook.com/Ponto-Track-340537619461579/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <!-- <a href="#"><i class="fa fa-instagram"></i></a> -->
+                                <a href="https://www.youtube.com/channel/UCb1NwT2yAVaMHd5M1I6tTsQ" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="top-nav-item">
+                        <a href="#" class="top-nav-search">Procurar</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="main-sidebar">
+    <div class="header-block">
+        <h1 class="header-logo"><a href="#"><img src="images/logo.png" alt="logo"></a></h1>
+        <nav class="main-nav">
+            <a href="#" class="main-nav-menu">Menu</a>
+            <ul class="main-nav-list">
+                
+                    <li class="nav-item">
+                    
+                        <a href="index.html" class="nav-link ">Principal</a>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a href="quem-sou.html" class="nav-link ">Quem Sou</a>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a href="psicanalise.html" class="nav-link ">Psicanálise</a>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a href="#" class="nav-link">Especialidades</a>
+                        <ul class="nav-sub">
+                            
+                                <li class="nav-sub-item">
+                                    <a href="#" class="nav-sub-link"><span class="nav-sub-span">Lorem</span></a>
+                                </li>
+                            
+                                <li class="nav-sub-item">
+                                    <a href="#" class="nav-sub-link"><span class="nav-sub-span">Lorem Ipum</span></a>
+                                </li>
+                            
+                                <li class="nav-sub-item">
+                                    <a href="#" class="nav-sub-link"><span class="nav-sub-span">Lorem</span></a>
+                                </li>
+                            
+                                <li class="nav-sub-item">
+                                    <a href="#" class="nav-sub-link"><span class="nav-sub-span">Lorem</span></a>
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a href="#" class="nav-link ">Formação</a>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a href="contato.html" class="nav-link ">Fale Conosco</a>
+                    
+                    </li>
+                
+                <!-- <li class="nav-item"><a href="index.html" class="nav-link">Principal</a></li>
+                <li class="nav-item"><a href="quem-somos.html" class="nav-link">Quem Somos</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Serviços</a>
+                    <ul class="nav-sub">
+                        <li class="nav-sub-item">
+                            <a href="#" class="nav-sub-link"><span class="nav-sub-span">Serviço 1</span></a>
+                        </li>
+                        <li class="nav-sub-item">
+                            <a href="#" class="nav-sub-link"><span class="nav-sub-span">Serviço 2</span></a>
+                        </li>
+                        <li class="nav-sub-item">
+                            <a href="#" class="nav-sub-link"><span class="nav-sub-span">Serviço 3</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Dúvidas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Compre Agora</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Nossos Serviços</a></li>
+                <li class="nav-item">
+                    <a href="contato.html" class="nav-link">Fale Conosco</a>
+                </li> -->
+            </ul>
+        </nav>
+    </div>
+    <div class="w-bl-local">
+        <h3 class="w-bl-title">Consultório</h3>
+        <div id="gmap-sd" class="w-bl-local-map">
+        </div>
+        <ul class="w-bl-local-list">
+            <li>
+                
+                <a href="#" class="item-icon-address">Rua Senador Souza Naves, 771, Sala 305 - Londrina-PR</a>
+                <a href="#" class="item-icon-phone">(43) 3017-0227</a>
+                <a href="#" class="item-icon-mail">pontotrack@gmail.com</a>
+            </li>
+        </ul>
+    </div>
+                    
+</div>
+        <div class="main-content">
+            
+            <div class="inner-header">
+                <div class="inner-header-main">
+                    <h1>Psicanálise</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div>
+                <div class="inner-header-bt">
+                    <a href="index.html">Pág Principal</a><span>Psicanálise</span>
+                </div>
+            </div>
+            <div class="main-article-block">
+                <header class="bl-hd">
+                    <h2 class="title">Psicanálise</h2>
+                </header>
+                <article class="bl-article">
+                    <div class="intro-block-img">
+                        <img src="images/n-emp.jpg" alt="placeholder+image">
+                    </div>
+                    <p>A psicanálise é uma área de saber essencialmente distinta de outros campos do saber, como por exemplo a medicina. Ela é, antes de uma proposta terapêutica, uma experiência de discurso que visa levar cada um a sair daquilo que o faz sofrer, a alcançar outros modos de solução para seu sofrimento. Estamos certos de que quando alguém vem à análise é porque tropeçou na pedra, em algo que apareceu no seu caminho... O encontro com o analista indica uma nova proposta de vida quando permite afrouxar as exigências dos ideais que perseguimos, que buscamos a todo preço alcançar, e nos reintroduz no que se aponta como um caminho próprio, o do desejo de cada um.</p>
+                    <p>Assim, a experiência analítica, é um modo de ser e agir baseado no singular, e não na moral dos costumes e bons comportamentos. Partimos do princípio, como diz a psicanalista Liége Lise, de que todo ser humano tem algum mal-estar, sente e faz coisas estranhas. Por isso, a psicanálise postula que o caminho para tratar dessas “esquisitices” é pautar-se em algo especifico que não se encaixa em modelos de tratamento (medicamentosos, por exemplo) que privilegiam o que há de mais próprio àquele que procura um tratamento: o inconsciente. O inconsciente é a expressão dessa esquisitice singular, e a psicanálise, uma forma de lidar com ela, de inclui-la, sem transformá-la em sofrimento.</p>
+                    <!-- <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Aenean commodo</li>
+                        <li>Consectetuer adipiscing elit</li>
+                        <li>Cum sociis natoque</li>
+                    </ul>
+                    <h3>Loreim ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p> -->
+                </article>
+            </div>
+            <div class="images-block">
+                <header class="bl-hd">
+                    <h2 class="title">Galeria de Fotos</h2>
+                </header>
+                <article id="foto-slide" class="bl-article">
+                    <ul id="foto-slide-list" class="article-list" data-slide-num="4" data-slide-responsive="4" data-slide-center="true">
+                        <li class="article-item">
+                            <a href="gallery/quem-somos/ptrack-01.jpg" data-lightbox="Pontotrack" data-title="Empresa PontoTrack">
+                                <img class="card-img gl-4" src="gallery/quem-somos/ptrack-01-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                            </a>
+                        </li>
+                        <li class="article-item">
+                            <a href="gallery/quem-somos/ptrack-02.jpg" data-lightbox="Pontotrack" data-title="Empresa PontoTrack">
+                                <img class="card-img gl-4" src="gallery/quem-somos/ptrack-02-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                            </a>
+                        </li>
+                        <li class="article-item">
+                            <a href="gallery/quem-somos/ptrack-03.jpg" data-lightbox="Pontotrack" data-title="Empresa PontoTrack">
+                                <img class="card-img gl-4" src="gallery/quem-somos/ptrack-03-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                            </a>
+                        </li>
+                        <li class="article-item">
+                            <a href="gallery/quem-somos/ptrack-04.jpg" data-lightbox="Pontotrack" data-title="Empresa PontoTrack">
+                                <img class="card-img gl-4" src="gallery/quem-somos/ptrack-04-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                            </a>
+                        </li>
+                        <li class="article-item">
+                            <a href="gallery/quem-somos/ptrack-05.jpg" data-lightbox="Pontotrack" data-title="Empresa PontoTrack">
+                                <img class="card-img gl-4" src="gallery/quem-somos/ptrack-05-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                            </a>
+                        </li>
+                        <!-- <li class="article-item">
+                            <img class="card-img gl-4" src="http://dummyimage.com/181x130/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                        </li>
+                        <li class="article-item">
+                            <img class="card-img gl-4" src="http://dummyimage.com/181x130/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                        </li> -->
+                    </ul>
+                    <div class="custom-nav-wrapper">
+                        <a href="#" class="custom-nav-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                        <a href="#" class="custom-nav-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+            </div>
+           <div class="testimonial-block">
+    <header class="bl-hd">
+        <h2 class="title">Depoimentos</h2>
+    </header>
+    <article class="bl-article">
+        <div id="testimonial-slide-list" data-slide-num="1" data-slide-dots="true" data-slide-dots="true" data-slide-vertical="true">
+            <div class="testimonial-wrapper">
+                <div class="testimonial-block-img">
+                    <img class="card-img" src="images/dep1.jpg" alt="placeholder+image">
+                </div>
+                <div class="testimonial-block-text">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis. <span><b>Renata</b>, Londrina - PR</span></p>
+                </div>
+            </div>
+            <div class="testimonial-wrapper">
+                <div class="testimonial-block-img">
+                    <img class="card-img" src="images/dep1.jpg" alt="placeholder+image">
+                </div>
+                <div class="testimonial-block-text">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis. <span><b>Renata</b>, Londrina - PR</span></p>
+                </div>
+            </div>
+        </div>
+    </article>
+</div> 
+
+            <div class="cta-block">
+                <p class="cta-block-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <div class="cta-block-btn-wrapper">
+                    <a class="cta-block-btn">Entre em contato</a>
+                </div> 
+            </div>
+            <footer class="footer-block">
+                <p>© 2016 Ricardo Brandel Junior, todos os direitos reservados.</p>                
+                <div class="footer-block-arrow">
+                    <a id="#scroll-top-btn" href="#" class="i-arrow"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- JavaScripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPQzNrdeTnAhmj7t_MHTK4E0f8uJ3WDhw"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.rawgit.com/hpneo/gmaps/master/gmaps.min.js"></script>
+    <script>
+        var geocoder = new google.maps.Geocoder();
+        var address = "Rua Senador Souza Naves, 771, Londrina, PR";
+        var latitude;
+        var longitude;
+
+        geocoder.geocode( { 'address': address}, function(results, status) {
+
+          if (status == google.maps.GeocoderStatus.OK) {
+                latitude = results[0].geometry.location.lat();
+                longitude = results[0].geometry.location.lng();
+
+                var myLatLng = {lat: latitude, lng: longitude};
+                var mapDiv = document.getElementById('gmap-lc');
+
+                var mapCt = new google.maps.Map(document.getElementById('gmap-lc'), {
+                    zoom: 17,
+                    center: myLatLng
+                });
+
+                var mapSd = new google.maps.Map(document.getElementById('gmap-sd'), {
+                    zoom: 16,
+                    center: myLatLng
+                });
+
+                var pinColor = "DD8F0C";
+                var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor,
+                    new google.maps.Size(21, 34),
+                    new google.maps.Point(0,0),
+                    new google.maps.Point(10, 34)
+                );
+                var imageS = 'images/map-pin.png';
+                var imageB = 'images/map-pin-big.png';
+
+                var marker1 = new google.maps.Marker({
+                    position: myLatLng,
+                    icon: imageS,
+                    map: mapSd
+                });
+                var marker2 = new google.maps.Marker({
+                    position: myLatLng,
+                    // icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+                    icon: imageB,
+                    map: mapCt
+                });
+
+                var contentString = '<div class="map-marker">Endereço Consultório: ' + 
+                    '<span>Rua Agostinho Feijo Sanches, 349, Jardim Santa Monica, Londrina-PR</span></div>';
+
+                  var infowindow = new google.maps.InfoWindow({
+                    content: contentString
+                  });
+                marker2.addListener('click', function() {
+                    infowindow.open(mapCt, marker2);
+                });
+
+                // var pinColor = "333";
+                //     var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor,
+                //         new google.maps.Size(21, 34),
+                //         new google.maps.Point(0,0),
+                //         new google.maps.Point(10, 34));
+                //     var pinShadow = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_shadow",
+                //         new google.maps.Size(40, 37),
+                //         new google.maps.Point(0, 0),
+                //         new google.maps.Point(12, 35));
+                // var marker = new google.maps.Marker({
+                //                 position: myLatLng, 
+                //                 map: mapSd,
+                //                 icon: pinImage,
+                //                 shadow: pinShadow
+                //             });
+
+                // url = GMaps.staticMapURL({
+                //     zoom: 15,
+                //     size: [214, 142],
+                //     lat: latitude,
+                //     lng: longitude,
+                //     markers: [
+                //     {lat: latitude, lng: longitude, size: 'small', color: 'orange'}
+                //     ]
+                // });
+                // $('<img/>').attr('src', url).appendTo('#gmap-sd');
+
+                // var map = new GMaps({
+                //       el: '#gmap-lc',
+                //       zoom: 16,
+                //       content: '<div class="overlay">Lima</div>',
+                //       lat: latitude,
+                //       lng: longitude
+                //     });
+                // map.addMarker({
+                //   lat: latitude,
+                //   lng: longitude,
+                //   title: 'Empresa Ponto Track',
+                //   infoWindow: {
+                //     content: '<div class="map-info"><h3>Empresa Ponto Track:</h3><p>Rua Agostinho Feijo Sanches, 349, Jardim Santa Monica<br> CEP 86079-420, Londrina/PR - Brasil</p></div>'
+                //   },
+                //   click: function(e) {
+                //     alert('You clicked in this marker');
+                //   }
+                // });
+
+        };
+    });
+    </script>
+</body>
+</html>

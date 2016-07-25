@@ -1,0 +1,517 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <title>Psicólogo Ricardo Brandel Junior</title>
+
+    <!-- Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+    <!-- Styles -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <style>
+        
+    </style>
+</head>
+<body id="app-layout">
+    <div id="main-top" class="main-wrapper">
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <p>Seja Bem Vindo ao nosso site.</p>
+            </div>
+            <div class="top-bar-right">
+                <ul class="top-nav">
+                    <li class="top-nav-item">
+                        <a href="#" class="top-nav-phone">(43) 9695-8034</a>
+                    </li>
+                    <li class="top-nav-item">
+                        <a href="#" class="top-nav-mail">brandel.rj@gmail.com</a>
+                    </li>
+                    <li class="top-nav-item">
+                        <ul class="top-nav-social">
+                            <li>Redes Sociais:</li>
+                            <li class="top-nav-social-links">
+                                <a href="https://www.facebook.com/Psic-Ricardo-Brandel-Junior-601793730001470/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <!-- <a href="#"><i class="fa fa-instagram"></i></a> -->
+                                
+                                <!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="top-nav-item">
+                        <a href="#" class="top-nav-search">Procurar</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="main-sidebar">
+    <div class="header-block">
+        <h1 class="header-logo"><a href="#"><img src="images/logo.png" alt="logo"></a></h1>
+        <nav class="main-nav">
+            <a href="#" class="main-nav-menu">Menu</a>
+            <ul class="main-nav-list">
+                
+                    <li class="nav-item">
+                    
+                        <a href="index.html" class="nav-link  nav-link--active ">Principal</a>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a href="quem-sou.html" class="nav-link ">Quem Sou</a>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a href="#" class="nav-link ">Especialidades</a>
+                        <ul class="nav-sub">
+                            
+                                <li class="nav-sub-item">
+                                    <a href="especialidades.html" class="nav-sub-link"><span class="nav-sub-span">Minhas Especialidades</span></a>
+                                </li>
+                            
+                                <li class="nav-sub-item">
+                                    <a href="psicanalise.html" class="nav-sub-link"><span class="nav-sub-span">Psicanálise</span></a>
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a href="depoimentos.html" class="nav-link ">Depoimentos</a>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a href="contato.html" class="nav-link ">Fale Conosco</a>
+                    
+                    </li>
+                
+                <!-- <li class="nav-item"><a href="index.html" class="nav-link">Principal</a></li>
+                <li class="nav-item"><a href="quem-somos.html" class="nav-link">Quem Somos</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Serviços</a>
+                    <ul class="nav-sub">
+                        <li class="nav-sub-item">
+                            <a href="#" class="nav-sub-link"><span class="nav-sub-span">Serviço 1</span></a>
+                        </li>
+                        <li class="nav-sub-item">
+                            <a href="#" class="nav-sub-link"><span class="nav-sub-span">Serviço 2</span></a>
+                        </li>
+                        <li class="nav-sub-item">
+                            <a href="#" class="nav-sub-link"><span class="nav-sub-span">Serviço 3</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Dúvidas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Compre Agora</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Nossos Serviços</a></li>
+                <li class="nav-item">
+                    <a href="contato.html" class="nav-link">Fale Conosco</a>
+                </li> -->
+            </ul>
+        </nav>
+    </div>
+    <div class="w-bl-local">
+        <h3 class="w-bl-title">Meu Consultório:</h3>
+        <div id="gmap-sd" class="w-bl-local-map">
+        </div>
+        <ul class="w-bl-local-list">
+            <li>
+                
+                <a href="#" class="item-icon-address">Rua Senador Souza Naves, 771, Sala 305 - Londrina-PR</a>
+                <a href="#" class="item-icon-phone">(43) 9695-8034</a>
+                <a href="#" class="item-icon-mail">brandel.rj@gmail.com</a>
+            </li>
+        </ul>
+    </div>
+                    
+</div>
+        <div class="main-content">
+            
+            <div class="banner-block">
+                <ul id="banner-slide-list" data-slide-num="1" data-slide-autoplay="true">
+                    <li>
+                        <div class="banner-img">
+                            <img src="images/banner_1.jpg" alt="">
+                        </div>
+                        <!-- <div class="banner-text-wrapper">
+                            <h1 class="banner-text-title">PSICÓLOGO RICARDO BRANDEL JUNIOR</h1>
+                            <p class="banner-text-sub-title">Atendimento de adultos e adolescentes.</p>
+                        </div> -->
+                    </li>
+                    <li>
+                        <div class="banner-img">
+                            <img src="images/banner_2.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner-img">
+                            <img src="images/banner_3.jpg" alt="">
+                        </div>
+                    </li>
+                </ul>
+                <div class="custom-nav-wrapper">
+                    <a href="#" class="custom-nav-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                    <a href="#" class="custom-nav-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="intro-block">
+                <header class="bl-hd">
+                    <h2 class="title">Quem Sou</h2>
+                </header>
+                <article class="bl-article">
+                    <div class="intro-block-img">
+                        <img src="images/q-sou.jpg" alt="placeholder+image">
+                    </div>
+                    <p>Psicólogo, formado pela Universidade Estadual de Londrina. Estudou Psicopatologia e Criminologia na Universidade de Poitiers, França. Tem experiência na área de Psicologia Clínica, com ênfase em Psicanálise (Freud e Lacan), em instituições privadas e públicas.</p>
+                    <a href="quem-sou.html" class="btn-primary">Continue Lendo</a>
+                </article>
+            </div>
+            <div class="service-block">
+                <header class="bl-hd">
+                    <h2 class="title">Saiba Mais</h2>
+                </header>
+                <article class="bl-article">
+                    <ul id="service-slide-list" class="article-list" data-slide-num="3">
+                        <li class="article-item-service">
+                            <div class="card">
+                                <img class="card-img" src="images/ps3.jpg" alt="placeholder+image">
+                                <h3 class="card-title">Psicanálise</h3>
+                                <p class="card-text">A psicanálise é uma área de saber essencialmente distinta de outros campos do saber, como por...</p>
+                                <a href="#" class="card-btn">Saiba mais</a>
+                            </div>
+                        </li>
+                        <li class="article-item-service">
+                            <div class="card">
+                                <img class="card-img" src="images/ps2.jpg" alt="placeholder+image">
+                                <h3 class="card-title">Especialidades</h3>
+                                <p class="card-text">Segue a psicanálise como orientação de trabalho. Prioriza por um trabalho sério, ético e...</p>
+                                <a href="#" class="card-btn">Saiba mais</a>
+                            </div>
+                        </li>
+                        <li class="article-item-service">
+                            <div class="card">
+                                <img class="card-img" src="images/ps1.jpg" alt="placeholder+image">
+                                <h3 class="card-title">Entre em contato</h3>
+                                <p class="card-text">Através do formulário de contato do site ou através do e-mail que consta no topo da página.</p>
+                                <a href="#" class="card-btn">Saiba mais</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="custom-nav-wrapper">
+                        <a href="#" class="custom-nav-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                        <a href="#" class="custom-nav-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+            </div>
+            <div class="images-block">
+    <header class="bl-hd">
+        <h2 class="title">Fotos do consultório</h2>
+    </header>
+    <article id="foto-slide" class="bl-article">
+        <ul id="foto-slide-list" class="article-list" data-slide-num="4" data-slide-responsive="4" data-slide-center="true">
+            <li class="article-item">
+                <a href="fotos/consultorio/img1.jpg" data-lightbox="Consultorio" data-title="Meu Consultório">
+                    <img class="card-img gl-4" src="fotos/consultorio/img1-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                </a>
+            </li>
+            <li class="article-item">
+                <a href="fotos/consultorio/img2.jpg" data-lightbox="Consultorio" data-title="Meu Consultório">
+                    <img class="card-img gl-4" src="fotos/consultorio/img2-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                </a>
+            </li>
+            <li class="article-item">
+                <a href="fotos/consultorio/img3.jpg" data-lightbox="Consultorio" data-title="Meu Consultório">
+                    <img class="card-img gl-4" src="fotos/consultorio/img3-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                </a>
+            </li>
+            <li class="article-item">
+                <a href="fotos/consultorio/img4.jpg" data-lightbox="Consultorio" data-title="Meu Consultório">
+                    <img class="card-img gl-4" src="fotos/consultorio/img4-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                </a>
+            </li>
+            <li class="article-item">
+                <a href="fotos/consultorio/img5.jpg" data-lightbox="Consultorio" data-title="Meu Consultório">
+                    <img class="card-img gl-4" src="fotos/consultorio/img5-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                </a>
+            </li>
+            <li class="article-item">
+                <a href="fotos/consultorio/img6.jpg" data-lightbox="Consultorio" data-title="Meu Consultório">
+                    <img class="card-img gl-4" src="fotos/consultorio/img6-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                </a>
+            </li>
+            <li class="article-item">
+                <a href="fotos/consultorio/img7.jpg" data-lightbox="Consultorio" data-title="Meu Consultório">
+                    <img class="card-img gl-4" src="fotos/consultorio/img7-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                </a>
+            </li>
+            <li class="article-item">
+                <a href="fotos/consultorio/img8.jpg" data-lightbox="Consultorio" data-title="Meu Consultório">
+                    <img class="card-img gl-4" src="fotos/consultorio/img8-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                </a>
+            </li>
+            <li class="article-item">
+                <a href="fotos/consultorio/img9.jpg" data-lightbox="Consultorio" data-title="Meu Consultório">
+                    <img class="card-img gl-4" src="fotos/consultorio/img9-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                </a>
+            </li>
+            <li class="article-item">
+                <a href="fotos/consultorio/img10.jpg" data-lightbox="Consultorio" data-title="Meu Consultório">
+                    <img class="card-img gl-4" src="fotos/consultorio/img10-thumb.jpg" width="181px" height="130px" alt="placeholder+image">
+                </a>
+            </li>
+        </ul>
+        <div class="custom-nav-wrapper">
+            <a href="#" class="custom-nav-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#" class="custom-nav-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        </div>
+    </article>
+</div>
+            <!-- <div class="images-block">
+                <header class="bl-hd">
+                    <h2 class="title">Nosso Portifólio</h2>
+                </header>
+                <article class="bl-article">
+                    <ul id="portifolio-slide-list" class="article-list" data-slide-num="3" data-slide-center="true" data-slide-responsive="3">
+                        <li class="article-item">
+                            <img class="card-img" src="http://dummyimage.com/230x150/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                        </li>
+                        <li class="article-item">
+                            <img class="card-img" src="http://dummyimage.com/230x150/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                        </li>
+                        <li class="article-item">
+                            <img class="card-img" src="http://dummyimage.com/230x150/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                        </li>
+                        <li class="article-item">
+                            <img class="card-img" src="http://dummyimage.com/230x150/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                        </li>
+                        <li class="article-item">
+                            <img class="card-img" src="http://dummyimage.com/230x150/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                        </li>
+                        <li class="article-item">
+                            <img class="card-img" src="http://dummyimage.com/230x150/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+                        </li>
+                    </ul>
+                    <div class="custom-nav-wrapper">
+                        <a href="#" class="custom-nav-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                        <a href="#" class="custom-nav-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+            </div> -->
+            <div class="testimonial-block">
+    <header class="bl-hd">
+        <h2 class="title">Depoimentos</h2>
+    </header>
+    <article class="bl-article">
+        <div id="testimonial-slide-list" data-slide-num="1" data-slide-dots="true" data-slide-dots="true" data-slide-vertical="true" data-slide-adapHeight="true" data-slide-autoplay="true">
+            
+            <div class="testimonial-block-wrapper">
+                <div class="testimonial-block-symbol">
+                    
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    
+
+                </div>
+                <div class="testimonial-block-text">
+                    <p>Comprometimento com seus pacientes e responsabilidade são as principais características do trabalho desenvolvido pelo Ricardo.<span><b>Pedro</b>, Londrina - PR </span></p>
+                </div>
+            </div>
+            
+            <div class="testimonial-block-wrapper">
+                <div class="testimonial-block-symbol">
+                    
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    
+
+                </div>
+                <div class="testimonial-block-text">
+                    <p>Fico muito agradecida pelo acompanhamento que fiz com o Ricardo. Sou muito grata por todos os atendimentos e por ter me escutado de forma tão singular em vários momentos difíceis da minha vida e também por ter me ajudado a ver a vida sob um novo ângulo.<span><b>Marcela</b>, Londrina - PR </span></p>
+                </div>
+            </div>
+            
+            <div class="testimonial-block-wrapper">
+                <div class="testimonial-block-symbol">
+                    
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    
+
+                </div>
+                <div class="testimonial-block-text">
+                    <p>Trabalho ético e sensível. Assim que posso definir o trabalho conduzido pelo Ricardo. Sempre atendo e dedicado a escuta que desenvolve ao longo das sessões. Pude ver uma parte de mim que desconhecia graças a sua ajuda.<span><b>Beatriz</b>, Londrina - PR </span></p>
+                </div>
+            </div>
+            
+            
+        </div>
+    </article>
+</div>
+            <!-- <div class="clients-block">
+    <header class="bl-hd">
+        <h2 class="title">Nossos Clientes</h2>
+    </header>
+    <article class="bl-article">
+        <ul id="clients-slide-list" class="article-list" data-slide-num="4" data-slide-responsive="4" data-slide-center="true">
+            <li class="article-item">
+                <img class="card-img" src="http://dummyimage.com/238x128/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+            </li>
+            <li class="article-item">
+                <img class="card-img" src="http://dummyimage.com/238x128/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+            </li>
+            <li class="article-item">
+                <img class="card-img" src="http://dummyimage.com/238x128/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+            </li>
+            <li class="article-item">
+                <img class="card-img" src="http://dummyimage.com/238x128/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+            </li>
+            <li class="article-item">
+                <img class="card-img" src="http://dummyimage.com/238x128/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+            </li>
+            <li class="article-item">
+                <img class="card-img" src="http://dummyimage.com/238x128/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+            </li>
+            <li class="article-item">
+                <img class="card-img" src="http://dummyimage.com/238x128/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+            </li>
+            <li class="article-item">
+                <img class="card-img" src="http://dummyimage.com/238x128/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+            </li>
+        </ul>
+        <div class="custom-nav-wrapper">
+            <a href="#" class="custom-nav-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#" class="custom-nav-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        </div>
+    </article>
+</div> -->
+            <!-- <div class="form-block">
+    <header class="bl-hd">
+        <h2 class="title">Fale Conosco</h2>
+    </header>
+    <article class="bl-article">
+        <p id="email-message"></p>
+        <form id="contact-form" method="post">
+            <ul class="form-list">
+                <li class="form-item-3 form-group">
+                    <div class="form-group">
+                        <input type="text" name="nome" placeholder="Nome *" id="form-name" class="form-control error" data-validation="alphanumeric length" data-validation-length="3-15" data-validation-error-msg="Nome inválido.">
+                    </div>
+                </li>
+                <li class="form-item-3 form-group">
+                    <div class="form-group">
+                        <input type="text" name="email" placeholder="E-mail *" id="form-name" class="form-control error" data-validation="email" data-validation-error-msg="E-mail inválido.">
+                    </div>
+                </li>
+                <li class="form-item-3 form-group">
+                    <div class="form-group">
+                        <input type="text" id="form-tel" name="telefone" placeholder="Telefone" class="form-control" data-validation="brphone" data-validation-optional="true" data-validation-error-msg="Telefone inválido.">
+
+                    </div>
+                </li>
+                <li class="">
+                    <div class="form-group">
+                        <textarea name="mensagem" rows="" cols="" placeholder="Mensagem *" size="30x10" id="form-msg" class="form-control" data-validation="required" data-validation-error-msg="Preencha o campo mensagem"></textarea>
+                    </div>
+                </li>
+                <li class="form-item-btn">
+                    <div class="form-group">
+                        <input type="submit" value="ENVIAR MENSAGEM" id="form-submit">
+                    </div>
+                </li>
+            </ul>
+        </form>
+    </article>
+</div> -->
+
+            <div class="cta-block">
+                <p class="cta-block-p">Entre em contato para agendar uma consulta.</p>
+                <div class="cta-block-btn-wrapper">
+                    <a href="contato.html" class="cta-block-btn">Formulário de contato</a>
+                </div> 
+            </div>
+            <footer class="footer-block">
+                <p><b>© 2016 Ricardo Brandel Junior</b>, todos os direitos reservados.</p>                
+                <div class="footer-block-arrow">
+                    <a id="#scroll-top-btn" href="#" class="i-arrow"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- JavaScripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPQzNrdeTnAhmj7t_MHTK4E0f8uJ3WDhw"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+    ;(function($) {
+        
+        $.fn.gMaps = function( options ) {
+        
+            var settings = $.extend({
+                address: "Rua Senador Souza Naves, 771, Londrina, PR",
+                zoom: 14,
+                pin: "images/map-pin.png",
+                info: false,
+                scroll: false
+            }, options );
+
+            $el = $(this)[0];
+
+            mapAddress($el, settings);
+
+            return this
+        
+        };
+
+        function mapAddress(mapElement, settings) {
+            var geocoder = new google.maps.Geocoder();
+
+            geocoder.geocode({ 'address': settings.address }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    var mapOptions = {
+                        zoom: settings.zoom,
+                        center: results[0].geometry.location,
+                        scrollwheel: settings.scroll ? true : false
+                    };
+                    var map = new google.maps.Map(mapElement, mapOptions);
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: results[0].geometry.location,
+                        icon: settings.pin
+                    });
+
+                    if(settings.info) {
+                        var contentString = '<div class="map-marker">Consultório Ricardo Brandão: ' + 
+                                            '<span>Rua Senador Souza Naves, 771, Sala 305 - Londrina-PR</span></div>';
+                        var infowindow = new google.maps.InfoWindow({
+                            content: contentString
+                        });
+                        infowindow.open(map, marker);
+                        marker.addListener('click', function() {
+                            infowindow.open(map, marker);
+                        });
+                    }
+                    
+                } else {
+                    console.log("Geocode was not successful for the following reason: " + status);
+                }
+            });
+        }
+
+    })(jQuery);
+
+    $("#gmap-sd").gMaps();
+    $("#gmap-lc").gMaps({ zoom: 16, pin: "images/map-pin-big.png", info: true });
+    </script>
+</body>
+</html>
