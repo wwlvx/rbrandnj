@@ -8,17 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
-    <title>Psicólogo Ricardo Brandel Junior</title>
+    <title>Ricardo Brandel - Psicólogo Londrina</title>
 
-    <!-- Fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
     <!-- Styles -->
     <link href="assets/css/main.css" rel="stylesheet">
 
-    <style>
-        
-    </style>
 </head>
 <body id="app-layout">
     <div id="main-top" class="main-wrapper">
@@ -29,7 +23,10 @@
             <div class="top-bar-right">
                 <ul class="top-nav">
                     <li class="top-nav-item">
-                        <a href="tel:04396958034" class="top-nav-phone">(43) 9695-8034</a>
+                        <a href="tel:04333232643" class="top-nav-phone">(43) 3323-2643</a>
+                    </li>
+                    <li class="top-nav-item">
+                        <a href="tel:04396958034" class="top-nav-cel">(43) 9695-8034</a>
                     </li>
                     <li class="top-nav-item">
                         <a href="mailto:brandel.rj@gmail.com?subject=Contato Site Ricardo Brandel" class="top-nav-mail">brandel.rj@gmail.com</a>
@@ -132,7 +129,7 @@
             <li>
                 
                 <a href="contato.html" class="item-icon-address">Rua Senador Souza Naves, 771, Sala 305 - Londrina-PR</a>
-                <a href="tel:04396958034" class="item-icon-phone">(43) 9695-8034</a>
+                <a href="tel:04396958034" class="item-icon-phone">(43) 3323-2643 | 9695-8034</a>
                 <a href="mailto:brandel.rj@gmail.com?subject=Contato Site Ricardo Brandel" class="item-icon-mail">brandel.rj@gmail.com</a>
             </li>
         </ul>
@@ -191,7 +188,7 @@
                                 <img class="card-img" src="images/ps3.jpg" alt="placeholder+image">
                                 <h3 class="card-title">Psicanálise</h3>
                                 <p class="card-text">A psicanálise é uma área de saber essencialmente distinta de outros campos do saber, como por...</p>
-                                <a href="#" class="card-btn">Saiba mais</a>
+                                <a href="psicanalise.html" class="card-btn">Saiba mais</a>
                             </div>
                         </li>
                         <li class="article-item-service">
@@ -199,15 +196,15 @@
                                 <img class="card-img" src="images/ps2.jpg" alt="placeholder+image">
                                 <h3 class="card-title">Especialidades</h3>
                                 <p class="card-text">Segue a psicanálise como orientação de trabalho. Prioriza por um trabalho sério, ético e...</p>
-                                <a href="#" class="card-btn">Saiba mais</a>
+                                <a href="especialidades.html" class="card-btn">Saiba mais</a>
                             </div>
                         </li>
                         <li class="article-item-service">
                             <div class="card">
                                 <img class="card-img" src="images/ps1.jpg" alt="placeholder+image">
                                 <h3 class="card-title">Entre em contato</h3>
-                                <p class="card-text">Através do formulário de contato do site ou através do e-mail que consta no topo da página.</p>
-                                <a href="#" class="card-btn">Saiba mais</a>
+                                <p class="card-text">Através do formulário de contato do site, através do telefone ou e-mail que constam no topo da página.</p>
+                                <a href="contato.html" class="card-btn">Saiba mais</a>
                             </div>
                         </li>
                     </ul>
@@ -435,7 +432,7 @@
 </div> -->
 
             <div class="cta-block">
-                <p class="cta-block-p">Entre em contato para agendar uma consulta.</p>
+                <p class="cta-block-p">Entre em contato para agendar uma consulta. <span class="cta-block-tel">Tel: (43) 3323-2643</span></p>
                 <div class="cta-block-btn-wrapper">
                     <a href="contato.html" class="cta-block-btn">Formulário de contato</a>
                 </div> 
@@ -448,70 +445,12 @@
             </footer>
         </div>
     </div>
-    <!-- JavaScripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPQzNrdeTnAhmj7t_MHTK4E0f8uJ3WDhw"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-    ;(function($) {
-        
-        $.fn.gMaps = function( options ) {
-        
-            var settings = $.extend({
-                address: "Rua Senador Souza Naves, 771, Londrina, PR",
-                zoom: 14,
-                pin: "images/map-pin.png",
-                info: false,
-                scroll: false
-            }, options );
-
-            $el = $(this)[0];
-
-            mapAddress($el, settings);
-
-            return this
-        
-        };
-
-        function mapAddress(mapElement, settings) {
-            var geocoder = new google.maps.Geocoder();
-
-            geocoder.geocode({ 'address': settings.address }, function (results, status) {
-                if (status == google.maps.GeocoderStatus.OK) {
-                    var mapOptions = {
-                        zoom: settings.zoom,
-                        center: results[0].geometry.location,
-                        scrollwheel: settings.scroll ? true : false
-                    };
-                    var map = new google.maps.Map(mapElement, mapOptions);
-                    var marker = new google.maps.Marker({
-                        map: map,
-                        position: results[0].geometry.location,
-                        icon: settings.pin
-                    });
-
-                    if(settings.info) {
-                        var contentString = '<div class="map-marker">Consultório Ricardo Brandão: ' + 
-                                            '<span>Rua Senador Souza Naves, 771, Sala 305 - Londrina-PR</span></div>';
-                        var infowindow = new google.maps.InfoWindow({
-                            content: contentString
-                        });
-                        infowindow.open(map, marker);
-                        marker.addListener('click', function() {
-                            infowindow.open(map, marker);
-                        });
-                    }
-                    
-                } else {
-                    console.log("Geocode was not successful for the following reason: " + status);
-                }
-            });
-        }
-
-    })(jQuery);
-
-    $("#gmap-sd").gMaps();
-    $("#gmap-lc").gMaps({ zoom: 16, pin: "images/map-pin-big.png", info: true });
-    </script>
 </body>
 </html>
+<!-- Fonts -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+<!-- JavaScripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPQzNrdeTnAhmj7t_MHTK4E0f8uJ3WDhw"></script>
+<script src="assets/js/all-min.js"></script>
